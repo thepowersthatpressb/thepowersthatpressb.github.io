@@ -1,0 +1,75 @@
+body { 
+   background: url(images/BG.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}
+
+#bg {
+    z-index: -10;
+    display: none;
+}
+
+.cf {
+    text-align: center;
+
+    display: block;
+    margin: auto;
+}
+
+.pannable-image {
+    height: 800px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: arial;
+    font-weight: 200;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -50px;
+}
+
+h2 {
+    color: white;
+    font-family: arial;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+hr {
+    color: white;
+    border-width: 2px;
+    margin: 50px 50px;
+}
+
+h1 {
+    color: white;
+    font-family: arial;
+    font-weight: 100;
+    font-size: 60px;
+    margin: 50px 50px; 
+    margin-top: 20px;
+}
+
+p {
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    margin: 50px 50px; 
+}
+
+.cool {
+    max-height: 720px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
