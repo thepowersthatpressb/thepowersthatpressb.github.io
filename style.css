@@ -14,9 +14,8 @@ body {
 
 .cf {
     text-align: center;
-
     display: block;
-    margin: auto;
+    margin: 50px;
 }
 
 .pannable-image {
