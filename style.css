@@ -66,10 +66,11 @@ p {
 }
 
 .cool {
+   
     max-height: 720px;
+    max-width: 900px;
     display: block;
-    margin: auto;
+    margin:auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
 }
