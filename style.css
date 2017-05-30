@@ -81,3 +81,20 @@ p {
 a {
     color: white;
 }
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.scrollmenu img {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    height: 600px;
+    margin-right: 200px;
+}
