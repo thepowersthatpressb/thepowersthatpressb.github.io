@@ -98,3 +98,7 @@ a {
     height: 600px;
     margin-right: 200px;
 }
+
+#last {
+    margin-right: 0px;
+}
