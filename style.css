@@ -1,10 +1,13 @@
-body { 
+body {
+    background-color: black;
+}
+
+#main { 
    background: url(images/BG.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
 }
 
 #bg {
@@ -18,9 +21,23 @@ body {
     margin: 50px;
 }
 
+#homepage{
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding: 15px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%); 
+}
+
 .pannable-image {
     height: 800px;
     text-align: center;
+}
+
+#study {
+    margin-top: 0px;
 }
 
 h3 {
@@ -29,8 +46,9 @@ h3 {
     font-weight: 200;
     font-size: 80px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    width: 1000px
 }
 
 h2 {
@@ -44,6 +62,51 @@ h2 {
     margin-right: 50px;
 }
 
+#button1{
+    color: #218241;
+    font-size: 30px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    width: 600px;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:block;
+    border: 2px solid #218241;
+    border-radius: 15px;
+    font-family: arial;
+}
+
+#button2{
+    color: #5E8200;
+    font-size: 30px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    width: 600px;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:block;
+    border: 2px solid #5E8200;
+    border-radius: 15px;
+    font-family: arial;
+}
+/*
+.topb{
+    margin-left: auto;
+        margin-right: auto;
+
+    position: fixed;
+    display: inline;
+    float: inherit;
+}
+*/
 hr {
     color: white;
     border-width: 2px;
@@ -69,8 +132,7 @@ p {
 }
 
 .cool {
-   
-    max-height: 720px;
+    max-height: 600px;
     max-width: 900px;
     display: block;
     margin:auto;
@@ -101,4 +163,27 @@ a {
 
 #last {
     margin-right: 0px;
+}
+
+figure {
+    margin: 20px 40px 200px;
+    display: inline-block;
+} 
+
+.powers {
+    max-width: 300px;
+}
+
+figcaption {
+    text-align: left;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    width: 300px;
+    margin: 0px 0px 20px;
+    position:absolute;
+}
+
+#thatb{
+    text-align: center;
 }
